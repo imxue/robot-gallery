@@ -1,0 +1,25 @@
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(89, 215, 173);
+  
+    float: left;
+    width: 190px;
+    height: 254px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+                -15px -15px 30px #ffffff;
+    margin-bottom: 15px;
+    margin-right:25px;
+}
+
+.imgSize {
+    width: 200px;
+}
+
+li:hover {
+    transform: scale(1.2);
+ }
